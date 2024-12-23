@@ -1,0 +1,42 @@
+/* src/components/Footer.css */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+}
+
+.footer-section h4 {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #ccc;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #777;
+}
+
